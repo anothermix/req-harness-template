@@ -1,0 +1,63 @@
+{
+  "project": "ชื่อโปรเจกต์ (แก้ตอนรัน /setup-harness)",
+  "description": "ระบบอะไร ทำให้ใคร แก้ปัญหาอะไร",
+  "language": "th",
+  "modules": ["Module A", "Module B", "Other"],
+  "phases": ["MVP", "Phase 2", "Phase 3", "TBD"],
+  "airtable": {
+    "baseId": "appXXXXXXXXXXXXXX",
+    "tables": {
+      "requirements": {
+        "id": "tblXXXXXXXXXXXXXX",
+        "fields": {
+          "reqId": "fldXXXXXXXXXXXXXX",
+          "title": "fldXXXXXXXXXXXXXX",
+          "description": "fldXXXXXXXXXXXXXX",
+          "type": "fldXXXXXXXXXXXXXX",
+          "module": "fldXXXXXXXXXXXXXX",
+          "priority": "fldXXXXXXXXXXXXXX",
+          "status": "fldXXXXXXXXXXXXXX",
+          "phase": "fldXXXXXXXXXXXXXX",
+          "requestedBy": "fldXXXXXXXXXXXXXX",
+          "acceptanceCriteria": "fldXXXXXXXXXXXXXX",
+          "notes": "fldXXXXXXXXXXXXXX",
+          "sourceMeetings": "fldXXXXXXXXXXXXXX"
+        }
+      },
+      "meetings": {
+        "id": "tblXXXXXXXXXXXXXX",
+        "fields": {
+          "name": "fldXXXXXXXXXXXXXX",
+          "date": "fldXXXXXXXXXXXXXX",
+          "meetingType": "fldXXXXXXXXXXXXXX",
+          "attendees": "fldXXXXXXXXXXXXXX",
+          "summary": "fldXXXXXXXXXXXXXX",
+          "decisions": "fldXXXXXXXXXXXXXX",
+          "actionItems": "fldXXXXXXXXXXXXXX",
+          "firefliesLink": "fldXXXXXXXXXXXXXX"
+        }
+      },
+      "openQuestions": {
+        "id": "tblXXXXXXXXXXXXXX",
+        "fields": {
+          "question": "fldXXXXXXXXXXXXXX",
+          "askWho": "fldXXXXXXXXXXXXXX",
+          "status": "fldXXXXXXXXXXXXXX",
+          "answer": "fldXXXXXXXXXXXXXX",
+          "raisedIn": "fldXXXXXXXXXXXXXX",
+          "relatedRequirements": "fldXXXXXXXXXXXXXX"
+        }
+      },
+      "stakeholders": {
+        "id": "tblXXXXXXXXXXXXXX",
+        "fields": {
+          "name": "fldXXXXXXXXXXXXXX",
+          "role": "fldXXXXXXXXXXXXXX",
+          "contact": "fldXXXXXXXXXXXXXX",
+          "interviewed": "fldXXXXXXXXXXXXXX",
+          "notes": "fldXXXXXXXXXXXXXX"
+        }
+      }
+    }
+  }
+}
